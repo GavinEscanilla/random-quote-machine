@@ -13,4 +13,8 @@ body #quote-box {
   width: 800px;
   height: 600px;
   background-color: #E5E5E5;
+}
+body #quote-box #text {
+  font-size: 30px;
+  word-wrap: break-word;
 }/*# sourceMappingURL=style.css.map */
