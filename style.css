@@ -1,20 +1,21 @@
-body {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  background-color: #4BFF21;
-  margin: 0;
-  padding: 0;
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: transparent;
+  z-index: 1;
+  transition: background-color 0.5s ease;
 }
-body #quote-box {
-  border: 1px solid black;
-  display: block;
-  width: 800px;
-  height: 600px;
-  background-color: #E5E5E5;
+
+#tweet-quote {
+  border: none;
+  background-color: aqua;
+  padding: 5px;
+  border-radius: 5px;
 }
-body #quote-box #text {
-  font-size: 30px;
-  word-wrap: break-word;
+
+* {
+  z-index: 99;
 }/*# sourceMappingURL=style.css.map */
